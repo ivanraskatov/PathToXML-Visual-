@@ -8,7 +8,7 @@ using System.Threading;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace xmlWriteWinApp
+namespace PathToXML
 {
     /// <summary>
     /// Возвращает строку - описание для xml файла, которое выбирается по ключевым словам в пути к файлу или папке.
@@ -299,7 +299,7 @@ namespace xmlWriteWinApp
             }
             if (folderName.Contains("src"))
             {
-                description = "Источник";
+                description = "Корневая папка с исходными файлами";
             }
             if (folderName.Contains("CsvHelper"))
             {
@@ -734,14 +734,427 @@ namespace xmlWriteWinApp
             {
                 description = "Объекты, описывающие работу с xml";
             }
+            if (folderName.Contains("CommonServiceLocator"))
+            {
+                description = "Обобщенное описание локатора служб";
+            }
+            if (folderName.Contains("Abstractions"))
+            {
+                description = "Описание общедоступных интерфейсов и деклараций";
+            }
+            if (folderName.Contains("Attributes"))
+            {
+                description = "Описание атрибутов";
+            }
+            if (folderName.Contains("Builder"))
+            {
+                description = "Реализация паттерна \"Строитель\"";
+            }
+            if (folderName.Contains("Container"))
+            {
+                description = "Реализация контейнера";
+            }
+            if (folderName.Contains("Policy"))
+            {
+                description = "Описание политик";
+            }
+            if (folderName.Contains("Selection"))
+            {
+                description = "Описание запроса";
+            }
+            if (folderName.Contains("Operation"))
+            {
+                description = "Описание операции";
+            }
+            if (folderName.Contains("Strategy"))
+            {
+                description = "Описание паттерна \"Стратегия\"";
+            }
+            if (folderName.Contains("Events"))
+            {
+                description = "Описание событий";
+            }
+            if (folderName.Contains("Exceptions"))
+            {
+                description = "Описание исключений";
+            }
+            if (folderName.Contains("Extension"))
+            {
+                description = "Описание расширений";
+            }
+            if (folderName.Contains("Injection"))
+            {
+                description = "Описание внедрений";
+            }
+            if (folderName.Contains("Lifetime"))
+            {
+                description = "Описание продолжительности жизни объектов";
+            }
+            if (folderName.Contains("Resolution"))
+            {
+                description = "Описание резолюции";
+            }
+            if (folderName.Contains("ResolverPolicy"))
+            {
+                description = "Описание политики распознавателя";
+            }
+            if (folderName.Contains("Utility"))
+            {
+                description = "Описание утилиты";
+            }
+            if (folderName.Contains("WebApi") || folderName.Contains("WebAPI"))
+            {
+                description = "Реализация программного веб-интерфейса";
+            }
+            if (folderName.Contains("Configuration"))
+            {
+                description = "Классы, реализующие работу с конфигурацией";
+            }
+            if (folderName.Contains("ConfigurationHelpers"))
+            {
+                description = "Вспомогательные классы по работе с конфигурацией";
+            }
+            if (folderName.Contains("Unity.Container"))
+            {
+                description = "Классы, реализующие контейнер инверсии управления";
+            }
+            if (folderName.Contains("ObjectBuilder"))
+            {
+                description = "";
+            }
+            if (folderName.Contains("BuildPlan"))
+            {
+                description = "Описание схемы работы Строителя";
+            }
+            if (folderName.Contains("Policies"))
+            {
+                description = "Политики";
+            }
+            if (folderName.Contains("Method"))
+            {
+                description = "Описание метода";
+            }
+            if (folderName.Contains("Creation"))
+            {
+                description = "Описание создания";
+            }
+            if (folderName.Contains("DynamicMethod"))
+            {
+                description = "Описание динамического метода";
+            }
+            if (folderName.Contains("BuildPlanCreator"))
+            {
+                description = "Создатель схемы сборки";
+            }
+            if (folderName.Contains("Mapping"))
+            {
+                description = "Мапирование";
+            }
+            if (folderName.Contains("Registration"))
+            {
+                description = "Регистрация";
+            }
+            if (folderName.Contains("Resolution"))
+            {
+                description = "Структура резолюции";
+            }
+            if (folderName.Contains("Storage"))
+            {
+                description = "Классы, реализующие работу с хранилищем";
+            }
+            if (folderName.Contains("Strategies"))
+            {
+                description = "Несколько реализаций паттерна \"Стратегия\"";
+            }
+            if (folderName.Contains("Interception"))
+            {
+                description = "Реализация перехватов вызовов методов";
+            }
+            if (folderName.Contains("ContainerIntegration"))
+            {
+                description = "Реализация интеграции контейнеров";
+            }
+            if (folderName.Contains("InterceptionBehaviors"))
+            {
+                description = "Реализация перехватов поведений";
+            }
+            if (folderName.Contains("Interceptors"))
+            {
+                description = "Реализация перехватчиков";
+            }
+            if (folderName.Contains("PolicyInjection"))
+            {
+                description = "Описание политики внедрения";
+            }
+            if (folderName.Contains("Utilities"))
+            {
+                description = "Описание утилит";
+            }
+            if (folderName.Contains("MatchingRules"))
+            {
+                description = "Описание правил соответствия";
+            }
+            if (folderName.Contains("Pipeline"))
+            {
+                description = "Реализация программного конвейера";
+            }
+            if (folderName.Contains("InstanceInterceptors"))
+            {
+                description = "Реализация перехватчиков экземпляров";
+            }
+            if (folderName.Contains("TypeInterceptors"))
+            {
+                description = "Реализация перехватчиков типов";
+            }
+            if (folderName.Contains("VirtualMethodInterception"))
+            {
+                description = "Реализация перехватчиков виртуальных методов";
+            }
+            if (folderName.Contains("InterfaceInterception"))
+            {
+                description = "Реализация перехватчиков интерфейсов";
+            }
+            if (folderName.Contains("Interception.Configuration"))
+            {
+                description = "Классы, реализующие работу с конфигурацией перехватчиков";
+            }
+            if (folderName.Contains("DependencyInjection"))
+            {
+                description = "Реализация внедрения зависимостей";
+            }
+            if (folderName.Contains("Logging"))
+            {
+                description = "Реализация логирования";
+            }
+            if (folderName.Contains("Options"))
+            {
+                description = "Настройки";
+            }
+            if (folderName.Contains("Mvc") || folderName.Contains("MVC"))
+            {
+                description = "Реализация архитектурного паттерна Модель-Представление-Контроллер";
+            }
+            if (folderName.Contains("RegistrationByConvention"))
+            {
+                description = "Реализация регистрации по конвенции";
+            }
+            if (folderName.Contains("ServiceLocation"))
+            {
+                description = "Реализация локатора служб ";
+            }
+            if (folderName.Contains("Specification"))
+            {
+                description = "Описание спецификации";
+            }
+            if (folderName.Contains("Issues"))
+            {
+                description = "Описание проблем";
+            }
+            if (folderName.Contains("TestData"))
+            {
+                description = "Описание тестовых данных";
+            }
+            if (folderName.Contains("DocumentFormat.OpenXml"))
+            {
+                description = "Инструменты для работы с документами Office Word, Excel и PowerPoint. ";
+            }
+            if (folderName.Contains("AdditionalCharacteristics"))
+            {
+                description = "Описание дополнительных характеристик";
+            }
+            if (folderName.Contains("Translator"))
+            {
+                description = "Трансляция атрибутов";
+            }
+            if (folderName.Contains("Bibliography"))
+            {
+                description = "Описание списка используемой литературы";
+            }
+            if (folderName.Contains("GeneratedCode"))
+            {
+                description = "Сгенерированный код";
+            }
+            if (folderName.Contains("InkML"))
+            {
+                description = "Язык разметки для ввода данных электронной ручкой или стилусом ";
+            }
+            if (folderName.Contains("Office"))
+            {
+                description = "Определение функций Office";
+            }
+            if (folderName.Contains("CustomUI"))
+            {
+                description = "Настраиваемый пользовательский интерфейс";
+            }
+            if (folderName.Contains("Word"))
+            {
+                description = "Определение функций Word";
+            }
+            if (folderName.Contains("Packaging"))
+            {
+                description = "Упаковка классов ";
+            }
+            if (folderName.Contains("SimpleTypes"))
+            {
+                description = "Описание простых типов";
+            }
+            if (folderName.Contains("Spreadsheet"))
+            {
+                description = "Описание таблиц";
+            }
+            if (folderName.Contains("Semantic"))
+            {
+                description = "Семантический валидатор";
+            }
+            if (folderName.Contains("Validation"))
+            {
+                description = "Валидатор, выполняющий различные проверки";
+            }
+            if (folderName.Contains("Wordprocessing"))
+            {
+                description = "Обработка текстов";
+            }
+            if (folderName.Contains("NTwain"))
+            {
+                description = "Поддержка протокола и интерфейса, определяющий взаимодействие между программами и устройствами захвата изображения";
+            }
+            if (folderName.Contains("Data"))
+            {
+                description = "Описание данных";
+            }
+            if (folderName.Contains("Interop"))
+            {
+                description = "Взаимодействие с другими форматами";
+            }
+            if (folderName.Contains("Triplets"))
+            {
+                description = "Описание триплетов";
+            }
+            if (folderName.Contains("DGAudio"))
+            {
+                description = "Группа аудиоданных";
+            }
+            if (folderName.Contains("DGControl"))
+            {
+                description = "Контроллер групп данных";
+            }
+            if (folderName.Contains("DGImage"))
+            {
+                description = "Группа данных изображений";
+            }
+            if (folderName.Contains("PdfiumViewer"))
+            {
+                description = "Просмотр PDF-файлов";
+            }
+            if (folderName.Contains("PdfSharp.Charting-wpf"))
+            {
+                description = "Создание графиков и диаграмм в PDF-файлах";
+            }
+            if (folderName.Contains("Charting"))
+            {
+                description = "Описание структуры графиков";
+            }
+            if (folderName.Contains("Charting.Renderers"))
+            {
+                description = "Визуализация графиков";
+            }
+            if (folderName.Contains("root"))
+            {
+                description = "Информация о версии этой сборки";
+            }
+            if (folderName.Contains("Drawing"))
+            {
+                description = "Описание инструментов рисования";
+            }
+            if (folderName.Contains("Drawing.BarCodes"))
+            {
+                description = "Рисование штампов в PDF-файлах";
+            }
+            if (folderName.Contains("Drawing.Internal"))
+            {
+                description = "Классы для внутреннего использования при рисовании в PDF-файлах";
+            }
+            if (folderName.Contains("Drawing.Layout"))
+            {
+                description = "Реализация слоев при рисовании в PDF-файле";
+            }
+            if (folderName.Contains("Drawing.Pdf"))
+            {
+                description = "Реализация инструментов рисования в PDF-файлах ";
+            }
+            if (folderName.Contains("Fonts"))
+            {
+                description = "Функциональное взаимодействие со шрифтами";
+            }
+            if (folderName.Contains("Fonts.OpenType"))
+            {
+                description = "Формат файла шрифтов, поддерживающий Unicode-кодировку";
+            }
+            if (folderName.Contains("Pdf"))
+            {
+                description = "Объекты структуры PDF-файлов";
+            }
+            if (folderName.Contains("Pdf.AcroForms"))
+            {
+                description = "Интерактивная форма PDF-формата";
+            }
+            if (folderName.Contains("Pdf.Actions"))
+            {
+                description = "Действия, происходящие по тому или иному событию PDF-формата";
+            }
+            if (folderName.Contains("Pdf.Advanced"))
+            {
+                description = "Расширенный функционал взаимодействия с PDF-файлами";
+            }
+            if (folderName.Contains("Pdf.Annotations"))
+            {
+                description = "Аннотации в PDF-файлах";
+            }
+            if (folderName.Contains("Pdf.Content"))
+            {
+                description = "Чтение и запись потоков содержимого PDF-файлов";
+            }
+            if (folderName.Contains("Pdf.Content.Objects"))
+            {
+                description = "Объекты потока содержимого PDF-файла";
+            }
+            if (folderName.Contains("Pdf.Filters"))
+            {
+                description = "Потоковые фильтры для PDF-файлов";
+            }
+            if (folderName.Contains("Pdf.Internal"))
+            {
+                description = "Классы для внутреннего использования при взаимодействие с PDF-файлами";
+            }
+            if (folderName.Contains("Pdf.IO"))
+            {
+                description = "Чтение и запись в PDF-файлы и потоки данных";
+            }
+            if (folderName.Contains("Pdf.Printing"))
+            {
+                description = "Печать PDF-файлов";
+            }
+            if (folderName.Contains("Pdf.Security"))
+            {
+                description = "Безопастность PDF-файлов";
+            }
+            if (folderName.Contains("SharpZipLib"))
+            {
+                description = "Расширения библиотек для работы с ZIP архивами";
+            }
+            if (folderName.Contains("Windows"))
+            {
+                description = "Объекты класса Windows, используемые в библиотеке";
+            }
+            if (folderName.Contains("Restrictions"))
+            {
+                description = "Объекты класса Windows, используемые в библиотеке";
+            }
             //if (folderName.Contains(""))
             //{
             //    description = "";
             //}
-            //if (folderName.Contains(""))
-            //{
-            //    description = "";
-            //}
+
             return description;
         }
     }
