@@ -1,0 +1,10 @@
+D:\HG REPO\xmlWriteWinApp\xmlWriteWinApp\xmlWriteWinApp\bin\Debug\xmlWriteWinApp.exe.config
+D:\HG REPO\xmlWriteWinApp\xmlWriteWinApp\xmlWriteWinApp\bin\Debug\xmlWriteWinApp.exe
+D:\HG REPO\xmlWriteWinApp\xmlWriteWinApp\xmlWriteWinApp\bin\Debug\xmlWriteWinApp.pdb
+D:\HG REPO\xmlWriteWinApp\xmlWriteWinApp\xmlWriteWinApp\obj\Debug\xmlWriteWinApp.Form1.resources
+D:\HG REPO\xmlWriteWinApp\xmlWriteWinApp\xmlWriteWinApp\obj\Debug\xmlWriteWinApp.Properties.Resources.resources
+D:\HG REPO\xmlWriteWinApp\xmlWriteWinApp\xmlWriteWinApp\obj\Debug\xmlWriteWinApp.csproj.GenerateResource.cache
+D:\HG REPO\xmlWriteWinApp\xmlWriteWinApp\xmlWriteWinApp\obj\Debug\xmlWriteWinApp.csproj.CoreCompileInputs.cache
+D:\HG REPO\xmlWriteWinApp\xmlWriteWinApp\xmlWriteWinApp\obj\Debug\xmlWriteWinApp.exe
+D:\HG REPO\xmlWriteWinApp\xmlWriteWinApp\xmlWriteWinApp\obj\Debug\xmlWriteWinApp.pdb
+D:\HG REPO\xmlWriteWinApp\xmlWriteWinApp\xmlWriteWinApp\obj\Debug\xmlWriteWinApp.csprojAssemblyReference.cache
